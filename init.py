@@ -23,16 +23,14 @@ def main(now):
 
   friends =[
     {
-      "name": "KRam",
+      "name": "Liz",
       "id": k_friend_id,
+      "amt": 56.57
     },
     {
-      "name": "Chrissy",
+      "name": "Clem",
       "id": c_friend_id,
-    },
-    {
-      "name": "Will",
-      "id": w_friend_id,
+      "amt": 50.45
     },
   ]
 
@@ -42,7 +40,7 @@ def main(now):
   for friend in friends:
     name = friend["name"]
     id = friend["id"]
-    description = "Spotify for the month of " + month + "— Sent by Joe's Assistant Efron 🤵🏻‍♂️"
+    description = "Verizon for the month of " + month + "— Sent by Stu's Assistant Efron 🤵🏻‍♂️"
     amount = 3.00
     message = f"""Good news old sport!
 
